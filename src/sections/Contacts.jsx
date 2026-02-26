@@ -20,7 +20,7 @@ const Contacts = () => {
             Mande uma mensagem
           </p>
           <p className="text-[14px]">
-            (15) 98122-3418
+            (15) 98175-1563
           </p>
         </div>
 
@@ -30,17 +30,17 @@ const Contacts = () => {
             Envie um e-mail
           </p>
           <p className="text-[14px]">
-            feltecsolutions@gmail.com
+            geovanasantos@gmail.com
           </p>
         </div>
 
         <div className="flex flex-col gap-[20px] items-center">
           <img src={locationIcon} alt="Chat icon" className="w-[50px] h-[50px]" />
           <p className="text-[16px]">
-            Agende uma reunião presencial
+            Aulas de pilates
           </p>
           <p className="text-[14px] w-[217px] text-center">
-            Av. Itavuvu, 11.777 - Jardim Santa Cecilia, Sorocaba - SP
+            Wannel Vile, Sorocaba - SP
           </p>
         </div>
       </div>
@@ -63,7 +63,7 @@ const Contacts = () => {
               Envie um e-mail
             </p>
             <p className="text-[16px]">
-              feltecsolutions@gmail.com
+              geovanasantos@gmail.com
             </p>
           </div>
 
@@ -74,7 +74,7 @@ const Contacts = () => {
                 Mande uma mensagem
               </p>
               <p className="text-[16px]">
-                (15) 98122-3418
+                (15) 98175-1563
               </p>
             </div>
           </div>
@@ -83,10 +83,10 @@ const Contacts = () => {
             <div className="flex flex-col gap-[20px] items-center">
               <img src={locationIcon} alt="Chat icon" className="w-[60px] h-[60px]" />
               <p className="text-[18px]">
-                Agende uma reunião presencial
+                Aulas de pilates
               </p>
               <p className="text-[16px] w-[217px] text-center">
-                Av. Itavuvu, 11.777 - Jardim Santa Cecilia, Sorocaba - SP
+                Wannel Vile, Sorocaba - SP, Sorocaba - SP
               </p>
             </div>
           </div>

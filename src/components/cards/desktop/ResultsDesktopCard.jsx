@@ -1,45 +1,41 @@
-import pesinho from '../../../assets/icons/pesinho.png';
-import balanca from '../../../assets/icons/balanca.png';
-import maca from '../../../assets/icons/maca.png';
-import garfinho from '../../../assets/icons/garfinho.png';
-import check from '../../../assets/icons/check.png';
+import { CheckCircle, Activity, HeartPulse, ShieldCheck, SmilePlus } from 'lucide-react';
 
 const ResultsDesktopCard = () => {
   return (
     <div className="absolute w-1/2 left-0 flex justify-end pr-[120px]">
       <div className="flex flex-col gap-[38px] items-start w-[505px]">
         <div className="flex items-center gap-[20px]">
-          <h1 className="text-[40px]">
-            Qualitativos
+          <h1 className="text-[40px] font-bold text-gray-900">
+            Por que fazer Fisio?
           </h1>
-          <img src={check} alt="check icon" className="w-[40px] h-[40px]" />
+          <CheckCircle className="w-[40px] h-[40px] text-secondary" />
         </div>
 
         <div className="flex gap-[30px] items-center">
-          <img src={pesinho} alt="ícone de pesinho" className="w-[40px] h-[40px]" />
-          <p className="text-[20px]">
-            Lorem <span className="font-bold">ipsum</span>
+          <Activity className="w-[40px] h-[40px] text-secondary" />
+          <p className="text-[20px] text-gray-700">
+            Alívio imediato de <span className="font-bold text-gray-900">dores crônicas</span>
           </p>
         </div>
 
         <div className="flex gap-[30px] items-center">
-          <img src={balanca} alt="ícone de pesinho" className="w-[40px] h-[40px]" />
-          <p className="text-[20px]">
-            Lorem ipsum <span className="font-bold">dolor sit amet</span>
+          <HeartPulse className="w-[40px] h-[40px] text-secondary" />
+          <p className="text-[20px] text-gray-700">
+            Recuperação da <span className="font-bold text-gray-900">mobilidade e força</span>
           </p>
         </div>
 
         <div className="flex gap-[30px] items-center">
-          <img src={maca} alt="ícone de pesinho" className="w-[40px] h-[40px]" />
-          <p className="text-[20px]">
-            Lorem ipsum <span className="font-bold">amet</span>
+          <ShieldCheck className="w-[40px] h-[40px] text-secondary" />
+          <p className="text-[20px] text-gray-700">
+            Prevenção de <span className="font-bold text-gray-900">lesões e desgastes</span>
           </p>
         </div>
 
         <div className="flex gap-[30px] items-center">
-          <img src={garfinho} alt="ícone de pesinho" className="w-[40px] h-[40px]" />
-          <p className="text-[20px]">
-            Lorem <span className="font-bold">ipsum</span>
+          <SmilePlus className="w-[40px] h-[40px] text-secondary" />
+          <p className="text-[20px] text-gray-700">
+            Mais <span className="font-bold text-gray-900">qualidade de vida</span>
           </p>
         </div>
       </div>
