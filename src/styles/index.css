@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+@theme {
+  /* Fonte revisar! */
+  --font-montserrat: "Montserrat", sans-serif;
+
+  /* Colors */
+  --color-primary: #001F3F;
+  --color-secondary: #003366;
+  --color-jet: #333333;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply font-montserrat;
+    @apply text-jet;
+  }
+}
