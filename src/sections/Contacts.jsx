@@ -1,6 +1,6 @@
 import chat from '../assets/icons/chat.png';
 import email from '../assets/icons/email.png';
-import locationIcon from '../assets/icons/locationIcon.png';
+import insta from '../assets/icons/Instagram_Logo_bolder.png';
 
 const Contacts = () => {
   return (
@@ -30,17 +30,17 @@ const Contacts = () => {
             Envie um e-mail
           </p>
           <p className="text-[14px]">
-            geovanasantos@gmail.com
+            geaparecida2004@gmail.com
           </p>
         </div>
 
         <div className="flex flex-col gap-[20px] items-center">
-          <img src={locationIcon} alt="Chat icon" className="w-[50px] h-[50px]" />
+          <img src={insta} alt="Instagram icon" className="w-[50px] h-[50px]" />
           <p className="text-[16px]">
-            Aulas de pilates
+            Acesse o Instagram
           </p>
           <p className="text-[14px] w-[217px] text-center">
-            Wannel Vile, Sorocaba - SP
+            @gesantos.fisio
           </p>
         </div>
       </div>
@@ -63,7 +63,7 @@ const Contacts = () => {
               Envie um e-mail
             </p>
             <p className="text-[16px]">
-              geovanasantos@gmail.com
+              geaparecida2004@gmail.com
             </p>
           </div>
 
@@ -81,12 +81,12 @@ const Contacts = () => {
 
           <div className="absolute w-1/2 right-0 flex items-start pl-[260px] top-0">
             <div className="flex flex-col gap-[20px] items-center">
-              <img src={locationIcon} alt="Chat icon" className="w-[60px] h-[60px]" />
+              <img src={insta} alt="Instagram icon" className="w-[60px] h-[60px]" />
               <p className="text-[18px]">
-                Aulas de pilates
+                Acesse o Instagram
               </p>
               <p className="text-[16px] w-[217px] text-center">
-                Wannel Vile, Sorocaba - SP, Sorocaba - SP
+                @gesantos.fisio
               </p>
             </div>
           </div>

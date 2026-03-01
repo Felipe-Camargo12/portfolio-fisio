@@ -4,20 +4,20 @@ import arrowRight from '../assets/icons/arrowRight.png';
 
 const testimonials = [
   {
-    text: "Cheguei com dores crônicas nas costas que me acompanhavam há anos. Com a terapia manual, já me sinto uma nova pessoa. Excelente profissional!",
-    name: "— Maria Fernandes"
+    text: "Geovana é excelente maravilhosa 😍👏👏👏",
+    name: "— Dirce Siqueira"
   },
   {
-    text: "A reabilitação do meu pós-operatório não poderia ter sido em mãos melhores. O cuidado e o conhecimento da Geovana me deram muita segurança.",
-    name: "— Carlos Eduardo"
+    text: "Fiz aula de pilates com a Geovana por 6 meses, ela é uma excelente profissional! Muito atenciosa e comprometida com o que faz.",
+    name: "— Liliam Gonçalves"
   },
   {
-    text: "Fazer as sessões de Pilates no conforto de casa mudou minha rotina. Minha postura melhorou 100% e as dores sumiram. Recomendo de olhos fechados!",
-    name: "— Juliana Costa"
+    text: "Melhor fisio de todas ❤️❤️❤️",
+    name: "— Anne Karoline Vitorino"
   },
   {
-    text: "O atendimento domiciliar tem sido fundamental para a recuperação do meu pai. A paciência e dedicação no atendimento geriátrico são inspiradoras.",
-    name: "— Roberto Almeida"
+    text: "A Geovanna une técnica e motivação, suas aulas são desafiadoras e divertidas, ela corrige cada movimento sempre com muita atenção. Nota 10.",
+    name: "— Antônia Aparecida Calderan Siqueira"
   }
 ];
 

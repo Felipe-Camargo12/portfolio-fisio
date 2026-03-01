@@ -10,7 +10,7 @@ const TalkToMeDesktopCard = () => {
               Recupere seu bem-estar
             </h1>
             <p className="text-[16px] leading-[22px] text-gray-600">
-              A dor não precisa ser uma companheira diária. A fisioterapia devolve a liberdade para o seu corpo, permitindo que você volte a fazer o que ama com total segurança.
+              A fisioterapia devolve a liberdade para o seu corpo, permitindo que você volte a fazer o que ama com total segurança.
             </p>
             <p className="text-[16px] leading-[22px] font-medium text-gray-700">
               Cada tratamento é único e focado na sua necessidade. Não espere a dor piorar para buscar ajuda especializada.

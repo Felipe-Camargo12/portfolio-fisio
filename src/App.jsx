@@ -1,4 +1,3 @@
-import React from 'react';
 import Header from './components/elements/Header';
 import AboutMe from './sections/AboutMe';
 import Home from './sections/Home';

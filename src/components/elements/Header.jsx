@@ -49,11 +49,44 @@ const Header = () => {
       <div className="hidden lg:flex relative items-center h-20 px-7">
         {/* Redes sociais */}
         <div className="flex items-center gap-7">
-          <a href={INSTA_URL} target="_blank" rel="noopener noreferrer">
-            <img src={instagramIcon} alt="Instagram" className="w-5 h-5" />
+          {/* Link do Instagram */}
+          <a
+            href={INSTA_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="
+              outline-none transition-all duration-300 ease-out 
+              
+              {/* Estado: Hover */}
+              hover:scale-110 
+              hover:drop-shadow-[0_0_10px_rgba(255,80,158)] 
+              
+              {/* Estado: Focus (Teclado) - Mesmo efeito */}
+              focus:scale-110 
+              focus:drop-shadow-[0_0_10px_rgba(255,80,158)] 
+            "
+          >
+            <img src={instagramIcon} alt="Instagram" className="w-5 h-5 block" />
           </a>
-          <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
-            <img src={whatsappIcon} alt="WhatsApp" className="w-5 h-5" />
+
+          {/* Link do WhatsApp */}
+          <a
+            href={WHATSAPP_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="
+              outline-none transition-all duration-300 ease-out 
+              
+              {/* Estado: Hover */}
+              hover:scale-110 
+              hover:drop-shadow-[0_0_10px_rgba(50,248,122)] 
+              
+              {/* Estado: Focus (Teclado) - Mesmo efeito */}
+              focus:scale-110 
+              focus:drop-shadow-[0_0_10px_rgba(50,248,122)]
+            "
+          >
+            <img src={whatsappIcon} alt="WhatsApp" className="w-5 h-5 block" />
           </a>
         </div>
 

@@ -4,16 +4,16 @@ const ResultsMobileCard = () => {
   return (
     <div className="flex flex-col gap-[30px] items-start w-[298px]">
       <div className="flex items-center gap-[10px]">
+        <CheckCircle className="w-[32px] h-[32px] secondary" />
         <h1 className="text-[25px] font-bold text-gray-900">
           Por que fazer Fisio?
         </h1>
-        <CheckCircle className="w-[32px] h-[32px] secondary" />
       </div>
 
       <div className="flex gap-[20px] items-center">
         <Activity className="w-[30px] h-[30px] secondary" />
         <p className="text-[16px] text-gray-700">
-          Alívio imediato de <span className="font-bold text-gray-900">dores crônicas</span>
+          Alívio de <span className="font-bold text-gray-900">dores</span>
         </p>
       </div>
 
