@@ -45,7 +45,7 @@ const Testimonials = () => {
   }, []);
 
   return (
-    <section className="w-full flex flex-col justify-center items-center py-[100px] gap-[80px] bg-slate-50 lg:gap-[100px]">
+    <section className="w-full flex flex-col justify-center items-center py-[100px] gap-[40px] bg-slate-50 lg:gap-[30px]">
       
       {/* Título da seção */}
       <div className="flex flex-col gap-4 justify-center items-center text-center">

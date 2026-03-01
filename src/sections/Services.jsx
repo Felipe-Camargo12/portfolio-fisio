@@ -40,7 +40,7 @@ const Services = () => {
       <div className="flex flex-col items-start justify-center gap-[75px] lg:flex-row">
         <ServiceCard
           title="Reabilitação Pós-Operatório"
-          description="Acompanhamento dedicado para uma recuperação cirúrgica segura e eficaz, focando na restauração dos movimentos e alívio da dor."
+          description="Acompanhamento para uma recuperação cirúrgica segura e eficaz, focando na restauração dos movimentos e alívio da dor."
           icon={<Stethoscope className="w-12 h-12 text-secondary" />}
           customWidth="w-[260px] lg:w-[308px]"
         />

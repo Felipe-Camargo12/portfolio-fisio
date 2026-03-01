@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import menuIcon from '../../assets/icons/ic_round-menu.png';
-import whatsappIcon from '../../assets/icons/WhatsApp_logo.png';
+import whatsappIcon from '../../assets/icons/whatsApp.png';
 import logo from '../../assets/icons/fisio.png';
-import instagramIcon from '../../assets/icons/Instagram_Logo_bolder.png';
+import instagramIcon from '../../assets/icons/instagram.png';
 import HeaderButton from '../shared/HeaderButton';
 
 const Header = () => {
