@@ -1,4 +1,4 @@
-import Mobile from '../assets/backgrounds/banner.png';
+import Mobile from '../assets/backgrounds/bannerMb.png';
 import Desktop from '../assets/backgrounds/banner.png';
 import GetInTouchCard from '../components/cards/GetInTouchCard';
 

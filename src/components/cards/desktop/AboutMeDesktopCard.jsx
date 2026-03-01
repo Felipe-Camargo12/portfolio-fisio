@@ -23,14 +23,14 @@ const AboutMeDesktopCard = () => {
         independência nas atividades diárias e melhorar a qualidade de vida.</span>
       </p>
 
-      <div className="flex gap-7">
+      {/* <div className="flex gap-7">
         <a href={INSTA_URL} target="_blank" rel="noopener noreferrer">
           <img src={instagramIcon} alt="Instagram" className="w-5 h-5" />
         </a>
         <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
           <img src={whatsappIcon} alt="WhatsApp" className="w-5 h-5" />
         </a>
-      </div>
+      </div> */}
     </div>
   );
 };

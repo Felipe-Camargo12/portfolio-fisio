@@ -1,11 +1,10 @@
 const GetInTouchCard = () => {
-  // Número já puxado corretamente para o link
   const WHATSAPP_URL = "https://api.whatsapp.com/send/?phone=5515981751563";
 
   return (
     <div className="relative w-[334px] h-[435px] lg:w-[653px] lg:h-[348px]">
-      {/* Fundo do card - Mudei para uma cor mais clara (bg-slate-50) para dar cara de área da saúde, mas mantive as suas medidas absolutas */}
-      <div className="w-[334px] h-[407px] bg-slate-50 shadow-xl absolute top-0 rounded-[20px] lg:w-[653px] lg:h-[319.5px] border border-gray-100">
+      {/* Fundo do card */}
+      <div className="w-[334px] h-[407px] bg-slate-50/80 shadow-xl absolute top-0 rounded-[20px] lg:w-[653px] lg:h-[319.5px] border border-gray-100/50">
         <div className="absolute top-[45px] left-[46px] w-[243px] text-center flex flex-col gap-[21px] lg:w-[528px] lg:left-[63px] lg:top-[34px] lg:gap-[26px]">
           <h1 className="text-[30px] font-bold leading-[36px] text-gray-900 lg:text-[42px] lg:leading-[45px]">
             Pronto para viver sem dor?
@@ -20,7 +19,7 @@ const GetInTouchCard = () => {
       </div>
 
       {/* Botão flutuante com o hover profissional e a cor da marca */}
-      <div className="absolute bottom-[-4px] left-[25px] lg:w-full lg:left-0 lg:flex lg:justify-center">
+      <div className="absolute w-full bottom-[-4px] flex items-center justify-center">
         <a
           href={WHATSAPP_URL}
           target="_blank"

@@ -8,7 +8,7 @@ const AboutMe = () => {
       {/* MOBILE */}
       <div className="pb-[80px] pt-[100px] flex flex-col gap-[48px] items-center justify-center md:flex-row lg:hidden">
         <AboutMeMobileCard />
-        <img src={logo} alt="Empresa Feltec" className="w-[220px] h-[270px]" />
+        <img src={logo} alt="Empresa Feltec" className="w-[270px] h-[270px]" />
       </div>
 
       {/* DESKTOP */}
