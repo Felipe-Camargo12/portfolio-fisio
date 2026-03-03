@@ -1,6 +1,6 @@
 import { useState } from "react";
 import menuIcon from "../../assets/icons/ic_round-menu.png";
-import whatsappIcon from "../../assets/icons/whatsApp.png";
+import whatsappIcon from "../../assets/icons/whatsapp.png";
 import logo from "../../assets/icons/fisio.png";
 import instagramIcon from "../../assets/icons/instagram.png";
 import HeaderButton from "../shared/HeaderButton";
