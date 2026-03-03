@@ -1,4 +1,4 @@
-import imageFooter from '../assets/backgrounds/details.jpg';
+import imageFooter from '../assets/backgrounds/details2.png';
 import onda from '../assets/backgrounds/waveDown.png';
 
 const Transition = () => {

@@ -18,16 +18,16 @@ const ResultsMobileCard = () => {
       </div>
 
       <div className="flex gap-[20px] items-center">
-        <HeartPulse className="w-[30px] h-[30px] secondary" />
+        <ShieldCheck className="w-[30px] h-[30px] secondary" />
         <p className="text-[16px] text-gray-700">
-          Recuperação da <span className="font-bold text-gray-900">mobilidade e força</span>
+          Prevenção de <span className="font-bold text-gray-900">lesões e desgastes</span>
         </p>
       </div>
 
       <div className="flex gap-[20px] items-center">
-        <ShieldCheck className="w-[30px] h-[30px] secondary" />
+        <HeartPulse className="w-[30px] h-[30px] secondary" />
         <p className="text-[16px] text-gray-700">
-          Prevenção de <span className="font-bold text-gray-900">lesões e desgastes</span>
+          Recuperação da <span className="font-bold text-gray-900">mobilidade e força</span>
         </p>
       </div>
 

@@ -1,9 +1,9 @@
-import { useState } from 'react';
-import menuIcon from '../../assets/icons/ic_round-menu.png';
-import whatsappIcon from '../../assets/icons/whatsApp.png';
-import logo from '../../assets/icons/fisio.png';
-import instagramIcon from '../../assets/icons/instagram.png';
-import HeaderButton from '../shared/HeaderButton';
+import { useState } from "react";
+import menuIcon from "../../assets/icons/ic_round-menu.png";
+import whatsappIcon from "../../assets/icons/whatsApp.png";
+import logo from "../../assets/icons/fisio.png";
+import instagramIcon from "../../assets/icons/instagram.png";
+import HeaderButton from "../shared/HeaderButton";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,11 +25,7 @@ const Header = () => {
         </a>
 
         {/* Botão WhatsApp */}
-        <a
-          href={WHATSAPP_URL}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
           <img src={whatsappIcon} alt="WhatsApp" className="w-5 h-5" />
         </a>
       </div>
@@ -38,9 +34,15 @@ const Header = () => {
       {isOpen && (
         <nav className="lg:hidden absolute top-full left-0 w-44 h-screen bg-white shadow-lg py-4 px-7">
           <ul className="flex flex-col space-y-4 text-black">
-            <li><a href="#sobre">Sobre mim</a></li>
-            <li><a href="#servicos">Meus Serviços</a></li>
-            <li><a href="#contato">Contato</a></li>
+            <li>
+              <a href="#sobre">Sobre mim</a>
+            </li>
+            <li>
+              <a href="#servicos">Meus Serviços</a>
+            </li>
+            <li>
+              <a href="#contato">Contato</a>
+            </li>
           </ul>
         </nav>
       )}
@@ -66,7 +68,11 @@ const Header = () => {
               focus:drop-shadow-[0_0_10px_rgba(255,80,158)] 
             "
           >
-            <img src={instagramIcon} alt="Instagram" className="w-5 h-5 block" />
+            <img
+              src={instagramIcon}
+              alt="Instagram"
+              className="w-5 h-5 block"
+            />
           </a>
 
           {/* Link do WhatsApp */}
@@ -92,18 +98,26 @@ const Header = () => {
 
         {/* Logo + Navegação */}
         <div className="absolute left-48/100 transform -translate-x-48/100 flex items-center gap-12">
-          <a href="#sobre" className="text-sm hover:underline">Geovana Santos Fisioterapeuta</a>
+          <a href="#sobre" className="text-sm hover:underline">
+            Geovana Santos Fisioterapeuta
+          </a>
           <a href="/">
             <img src={logo} alt="Logo" className="h-12" />
           </a>
           <nav className="flex gap-8 text-black text-sm">
-            <a href="#servicos" className="hover:underline">Serviços</a>
-            <a href="#contato" className="hover:underline">Contatos</a>
+            <a href="#servicos" className="hover:underline">
+              Serviços
+            </a>
+            <a href="#contato" className="hover:underline">
+              Contatos
+            </a>
           </nav>
         </div>
 
         {/* Botão de agendamento */}
-        <HeaderButton />
+        <div className="hidden min-[1200px]:block ml-auto">
+          <HeaderButton />
+        </div>
       </div>
     </header>
   );

@@ -9,7 +9,7 @@ const AboutMeDesktopCard = () => {
     <div className="flex flex-col gap-[30px] items-center">
       <div className="flex flex-col text-center text-primary">
         <p className="text-[20px]">Olá! Eu sou a</p>
-        <h1 className="font-light text- text-[45px]">
+        <h1 className="font-light text-[45px]">
           Fisioterapeuta <br />
           <span className="font-bold">Geovana Santos</span>
         </h1>

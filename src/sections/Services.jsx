@@ -6,14 +6,13 @@ const Services = () => {
     <section id="servicos" className="w-full flex flex-col justify-center items-center py-20 gap-[75px] lg:gap-[80px]">
       {/* Título da seção */}
       <div className="flex flex-col gap-4 justify-center items-center">
-        <h1 className="text-[20px] lg:text-[42px] font-bold">
+        <h1 className="text-[32px] lg:text-[42px] font-bold text-primary">
           Meus Serviços
         </h1>
         <div className="w-[80px] h-[1px] bg-jet lg:w-[160px]"></div>
       </div>
 
-      {/* Primeira linha de serviços */}
-      <div className="flex flex-col items-start justify-center gap-[75px] lg:flex-row">
+      <div className="flex flex-col items-center justify-center gap-[75px] lg:flex-row lg:items-start">
         <ServiceCard
           title="Atendimento a Domicílio"
           description="Levo o tratamento até você. Conforto e praticidade para realizar sua reabilitação no seu próprio ambiente, com total segurança."
@@ -36,8 +35,7 @@ const Services = () => {
         />
       </div>
 
-      {/* Segunda linha de serviços */}
-      <div className="flex flex-col items-start justify-center gap-[75px] lg:flex-row">
+      <div className="flex flex-col items-center justify-center gap-[75px] lg:flex-row lg:items-start">
         <ServiceCard
           title="Reabilitação Pós-Operatório"
           description="Acompanhamento para uma recuperação cirúrgica segura e eficaz, focando na restauração dos movimentos e alívio da dor."

@@ -17,7 +17,21 @@
   }
   
   body {
+    @apply cursor-default;
+  }
+
+  /* Impede que as imagens sejam "selecionadas" ou arrastadas */
+  img {
+    @apply select-none;
+    -webkit-user-drag: none; /* Para navegadores Safari/Chrome */
+  }
+  
+  body {
     @apply font-montserrat;
     @apply text-jet;
   }
+}
+
+body {
+  background-color: #fdfbfe;
 }

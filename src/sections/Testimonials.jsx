@@ -49,14 +49,14 @@ const Testimonials = () => {
       
       {/* Título da seção */}
       <div className="flex flex-col gap-4 justify-center items-center text-center">
-        <h1 className="text-[20px] font-bold text-gray-900 lg:text-[42px]">
+        <h1 className="text-[32px] font-bold text-gray-900 lg:text-[42px] text-primary">
           O que dizem os pacientes
         </h1>
         <div className="w-[80px] h-[2px] bg-secondary lg:w-[160px]"></div>
       </div>
       
       {/* Carrossel */}
-      <div className="w-[340px] flex items-center justify-between lg:w-[800px]">
+      <div className="w-[380px] flex items-center justify-between lg:w-[800px]">
         
         <button onClick={prevTestimonial} className="hover:scale-110 transition-transform">
           <img 

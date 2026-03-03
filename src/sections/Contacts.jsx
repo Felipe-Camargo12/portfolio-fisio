@@ -1,6 +1,6 @@
 import chat from '../assets/icons/chat.png';
 import email from '../assets/icons/email.png';
-import insta from '../assets/icons/Instagram_Logo_bolder.png';
+import insta from '../assets/icons/insta.png';
 
 const Contacts = () => {
   return (
@@ -8,7 +8,7 @@ const Contacts = () => {
       {/* MOBILE */}
       <div className="py-[75px] flex flex-col gap-[75px] items-center justify-center lg:hidden">
         <div className="flex flex-col gap-4 justify-center items-center">
-          <h1 className="text-[20px]">
+          <h1 className="text-[20px] text-primary">
             Entre em contato
           </h1>
           <div className="w-[80px] h-[1px] bg-jet"></div>
@@ -49,7 +49,7 @@ const Contacts = () => {
       <div className="hidden lg:w-full lg:h-[620px] lg:relative lg:flex lg:items-center lg:justify-center lg:flex-col">
         <div className="w-full h-1/2 flex items-center justify-center">
           <div className="flex flex-col gap-4 justify-center items-center">
-            <h1 className="text-[42px] text-jet">
+            <h1 className="text-[42px] text-jet text-primary">
               Entre em contato
             </h1>
             <div className="h-[1px] bg-jet w-[160px]"></div>
