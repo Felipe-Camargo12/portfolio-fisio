@@ -2,12 +2,12 @@ const GetInTouchCard = () => {
   const WHATSAPP_URL = "https://api.whatsapp.com/send/?phone=5515981751563";
 
   return (
-    <div className="relative w-full max-w-[400px] bg-white rounded-[32px] shadow-[0_8px_30px_rgb(0,0,0,0.15)] border border-slate-100 flex flex-col items-center text-center px-6 pt-12 pb-20 sm:pb-24 lg:px-12 lg:pt-16 lg:pb-28 transition-all hover:shadow-[0_8px_30px_rgb(0,0,0,0.30)]">
+    <div className="relative w-full max-w-[400px] bg-white rounded-[32px] shadow-[0_8px_30px_rgb(0,0,0,0.15)] border border-slate-100 flex flex-col items-center text-center px-6 pt-12 pb-16 sm:pb-24 lg:px-12 lg:pt-12 lg:pb-16 transition-all hover:shadow-[0_8px_30px_rgb(0,0,0,0.30)]">
       <h2
         id="get-in-touch-heading"
         className="text-3xl sm:text-4xl font-extrabold text-[#0F172A] leading-tight tracking-tight mb-5 text-balance"
       >
-        Pronto para viver sem dor?
+        Vamos tratar a causa da sua dor?
       </h2>
 
       <p className="text-sm sm:text-base lg:text-lg text-slate-500 mb-4 leading-relaxed text-balance">
