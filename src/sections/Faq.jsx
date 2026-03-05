@@ -15,12 +15,12 @@ const Faq = () => {
         <div className="w-[350px] flex flex-col gap-[20px] items-center justify-center lg:w-[400px]">
           <FaqCard
             question="Como funciona o atendimento a domicílio?"
-            answer="Levo todos os materiais e aparelhos necessários até a sua casa. Assim, você realiza a sua reabilitação ou aula de Pilates com total conforto e segurança."
+            answer="Levo todos os materiais e equipamentos necessários até a sua casa. Dessa forma, você realiza sua sessão de reabilitação ou aula de Pilates com conforto, segurança e toda a atenção no ambiente do seu próprio lar."
             customWidth="w-[280px] lg:w-[340px]"
           />
           <FaqCard
-            question="Preciso de encaminhamento médico para iniciar a fisio?"
-            answer="Não é obrigatório. Como profissional de primeiro contato, posso realizar sua avaliação clínica completa e traçar o melhor plano de tratamento para o seu caso."
+            question="O Pilates pode ajudar nas dores na coluna?"
+            answer="Sim. O Pilates Solo trabalha o fortalecimento do core, melhora a flexibilidade e contribui para a correção postural, sendo um excelente aliado na prevenção e no tratamento de dores na coluna."
             customWidth="w-[280px] lg:w-[340px]"
           />
         </div>
@@ -28,13 +28,13 @@ const Faq = () => {
         {/* Segunda Coluna */}
         <div className="w-[350px] flex flex-col gap-[20px] items-center justify-center lg:w-[400px]">
           <FaqCard
-            question="O Pilates Solo ajuda a tratar dores na coluna?"
-            answer="Com certeza! Ele foca no fortalecimento do core, na flexibilidade e na correção postural, sendo um excelente aliado contra dores crônicas e tensões."
+            question="Como faço para agendar a minha avaliação?"
+            answer="Você pode entrar em contato pelo WhatsApp pelo botão aqui no site, para tirar dúvidas e agendar sua avaliação. A partir dela, definimos o melhor plano de tratamento para o seu caso."
             customWidth="w-[280px] lg:w-[340px]"
           />
           <FaqCard
-            question="Como faço para agendar minha avaliação?"
-            answer="Basta clicar no botão do WhatsApp aqui no site. Vamos conversar rapidamente sobre sua queixa e encontrar o melhor horário para o seu atendimento em Sorocaba e região."
+            question="Preciso de encaminhamento médico para iniciar a fisioterapia?"
+            answer="Nem sempre. Em muitos casos é possível iniciar a avaliação fisioterapêutica diretamente. Se houver necessidade, o paciente pode ser orientado a procurar avaliação médica complementar."
             customWidth="w-[280px] lg:w-[340px]"
           />
         </div>

@@ -18,6 +18,11 @@ const testimonials = [
   {
     text: "A Geovanna une técnica e motivação, suas aulas são desafiadoras e divertidas, ela corrige cada movimento sempre com muita atenção. Nota 10.",
     name: "— Antônia Aparecida Calderan Siqueira"
+  },
+  {
+    text: "Experienciei alguns exercícios desenvolvidos pela doutora Geovana, a mesma se mostrou muito delicada e gentil, com expertise em passar"
+    + " exercícios que são desafiadores e técnicas que ajudam aliviar os músculos. Excelente profissional!!",
+    name: "— Felipe Camargo"
   }
 ];
 

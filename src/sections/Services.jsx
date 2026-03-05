@@ -12,42 +12,41 @@ const Services = () => {
         <div className="w-[80px] h-[1px] bg-jet lg:w-[160px]"></div>
       </div>
 
-      <div className="flex flex-col items-center justify-center gap-[75px] lg:flex-row lg:items-start">
+      {/* Container único para todos os cards */}
+      <div className="flex flex-wrap items-stretch justify-center gap-[75px] max-w-[1200px] w-full px-4 lg:px-0">
         <ServiceCard
           title="Atendimento a Domicílio"
           description="Levo o tratamento até você. Conforto e praticidade para realizar sua reabilitação no seu próprio ambiente, com total segurança."
           icon={<Home className="w-12 h-12 text-secondary" />}
-          customWidth="w-[268px] lg:w-[314px]"
+          customWidth="w-[268px] lg:w-[350px]"
         />
 
         <ServiceCard
           title="Pilates Solo"
           description="Exercícios focados no fortalecimento muscular, flexibilidade, controle da respiração e correção postural para prevenção e tratamento de lesões."
           icon={<Activity className="w-12 h-12 text-secondary" />}
-          customWidth="w-[280px] lg:w-[362px]"
+          customWidth="w-[280px] lg:w-[350px]"
         />
 
         <ServiceCard
           title="Geriatria"
           description="Fisioterapia especializada na terceira idade, focada em manter a independência funcional, melhorar o equilíbrio e garantir qualidade de vida."
           icon={<HeartHandshake className="w-12 h-12 text-secondary" />}
-          customWidth="w-[285px] lg:w-[362px]"
+          customWidth="w-[285px] lg:w-[350px]"
         />
-      </div>
 
-      <div className="flex flex-col items-center justify-center gap-[75px] lg:flex-row lg:items-start">
         <ServiceCard
           title="Reabilitação Pós-Operatório"
           description="Acompanhamento para uma recuperação cirúrgica segura e eficaz, focando na restauração dos movimentos e alívio da dor."
           icon={<Stethoscope className="w-12 h-12 text-secondary" />}
-          customWidth="w-[260px] lg:w-[308px]"
+          customWidth="w-[260px] lg:w-[350px]"
         />
 
         <ServiceCard
           title="Terapia Manual"
           description="Técnicas manuais específicas para tratar disfunções articulares e musculares, promovendo relaxamento, mobilidade e alívio imediato de tensões."
           icon={<HandHeart className="w-12 h-12 text-secondary" />}
-          customWidth="w-[280px] lg:w-[362px]"
+          customWidth="w-[280px] lg:w-[350px]"
         />
       </div>
     </section>

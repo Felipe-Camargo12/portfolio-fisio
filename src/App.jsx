@@ -9,6 +9,7 @@ import Contacts from './sections/Contacts';
 import Faq from './sections/Faq';
 import Transition from './sections/Transition';
 import Footer from './components/elements/Footer';
+import imageFooter from './assets/backgrounds/details2.png';
 
 export default function App() {
   return (
@@ -23,9 +24,14 @@ export default function App() {
         <TalkToMe />
         <Faq />
         <Contacts />
-        <Transition />
       </main>
-      <Footer />
+      <div 
+        className="w-full bg-cover bg-bottom bg-no-repeat"
+        style={{ backgroundImage: `url(${imageFooter})` }}
+      >
+        <Transition />
+        <Footer />
+      </div>
     </div>
   );
 }
